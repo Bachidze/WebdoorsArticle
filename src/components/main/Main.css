@@ -1,0 +1,16 @@
+@media (width >= 768px){
+    .grid2{
+        display: grid;
+        grid-template-areas: "pirveli meore"
+                             "pirveli mesame";
+    }
+    .pirveli{
+        grid-area: pirveli;
+    }
+    .meore{
+        grid-area: meore;
+    }
+    .mesame{
+        grid-area: mesame;
+    }
+}
