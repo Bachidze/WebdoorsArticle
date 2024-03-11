@@ -4,7 +4,7 @@ import HeaderComponent from '../LittleComponents/HeaderComponent'
 const Header = () => {
   return (
     <>
-    <header className='w-[90%] pt-[17px] max-w-[1920px] m-[auto] md:w-[90%] md:pt-[35px] xl:w-[70%] xl:pt-[60px]'>
+    <header className='w-[90%] pt-[17px] max-w-[1920px] m-[auto] md:w-[90%] md:pt-[35px] xl:w-[78%] xl:pt-[60px]'>
        {data5.map(el5 => (
         <HeaderComponent 
           Logo={el5.Logo}

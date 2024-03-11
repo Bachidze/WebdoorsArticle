@@ -1,4 +1,3 @@
-import './Footer.css'
 import { aboutinfo, data6, data7, dmcaEba, media } from '../../data'
 import Sponsor from '../LittleComponents/Sponsor'
 import LeftFooter from '../LittleComponents/LeftFooter'
@@ -24,7 +23,7 @@ const Footer = () => {
                     Supta={el6.Supta}
                     />
                 ))}
-        <section className='flex  max-w-[1920px]  flex-col justify-center items-center  xl:flex-row xl:justify-between'>
+        <section className='flex   max-w-[1550px] m-auto  flex-col justify-center items-center  xl:flex-row xl:justify-between'>
                 {data7.map(el7 => (
                     <LeftFooter 
                     MainImg={el7.MainImg}

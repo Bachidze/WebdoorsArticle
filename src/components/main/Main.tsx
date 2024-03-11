@@ -43,6 +43,7 @@ const Main = () => {
         par1={el.par1}
         par2={el.par2}
         par3={el.par3}
+        
         />
        ))}
        
