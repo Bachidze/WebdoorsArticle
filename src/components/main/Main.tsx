@@ -181,7 +181,7 @@ const Main = () => {
           </div>
         </section>
 
-        <section className="hidden 2xl:flex max-w-[80%] flex-col justify-start items-center  m-auto mt-[120px]">
+        <section className="hidden xl:flex max-w-[80%] flex-col justify-start items-center  m-auto mt-[120px]">
           <div className="flex flex-col self-start">
             <h1 className="text-[32px] leading-10">Read more news</h1>
             <div className="flex items-center justify-end mt-[12px]">
@@ -191,7 +191,7 @@ const Main = () => {
             </div>
           </div>
         </section>
-      <section className="hidden 2xl:flex justify-center   m-auto max-w-[1920px]">
+      <section className="hidden xl:flex justify-center   m-auto max-w-[1920px]">
           <div className="hidden xl:flex  justify-center items-center mt-[50px]">
             <div className="relative ">
               <img
@@ -216,7 +216,7 @@ const Main = () => {
               </p>
               <div className="flex items-end justify-end  mt-[80px]">
                 <div className="flex items-center justify-center w-[277px] h-[65px] bg-[#272431] rounded-[15px] gap-5">
-                  <div className="border-2 w-[12px] h-[12px] rounded-2xl border-[#8F8CEF]"></div>
+                  <div className="border-2 w-[12px] h-[12px] rounde-2xl border-[#8F8CEF]"></div>
                   <h2 className="font-bold text-white">READ ME</h2>
                 </div>
               </div>
@@ -224,7 +224,7 @@ const Main = () => {
           </div>
         </section>
 
-      <section className="hidden 2xl:flex justify-center m-auto max-w-[1920px]">
+      <section className="hidden xl:flex justify-center m-auto max-w-[1920px]">
             <div className="relative left-[70px]">
               <h1 className="text-[26px] text-white font-bold mb-[20px] text-left">
                 Lorem ipsum dolor amet
@@ -241,7 +241,7 @@ const Main = () => {
               </p>
               <div className="flex items-end justify-start  mt-[80px]">
                 <div className="flex items-center justify-center w-[277px] h-[65px] bg-[#272431] rounded-[15px] gap-5">
-                <div className="border-2 w-[12px] h-[12px] rounded-2xl border-[#8F8CEF]"></div>
+                <div className="border-2 w-[12px] h-[12px] rounde-2xl border-[#8F8CEF]"></div>
                   <h2 className="font-bold text-white">READ ME</h2>
                 </div>
               </div>

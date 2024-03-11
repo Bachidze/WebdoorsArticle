@@ -24,7 +24,7 @@ const Footer = () => {
                     Supta={el6.Supta}
                     />
                 ))}
-        <section className='flex w-[90%] max-w-[1440px] m-auto flex-col justify-center items-center  xl:flex-row xl:justify-between'>
+        <section className='flex  max-w-[1920px]  flex-col justify-center items-center  xl:flex-row xl:justify-between'>
                 {data7.map(el7 => (
                     <LeftFooter 
                     MainImg={el7.MainImg}
