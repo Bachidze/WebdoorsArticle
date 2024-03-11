@@ -76,7 +76,6 @@ export interface ReadMoreProp {
     par1:string;
     par2:string;
     par3:string;
-    par4:string;
 }
 export interface ReadMoreNewsProp {
     readmorenews:string;
