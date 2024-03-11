@@ -1,5 +1,6 @@
+import { Dmca } from "../../interface"
 
-const DmcaEba = ({Dmca2,Eba2,Paragraph}:any) => {
+const DmcaEba = ({Dmca2,Eba2,Paragraph}:Dmca) => {
   return (
     <>
     <section className='flex  m-auto flex-col  items-center md:flex-row md:items-center md:justify-center relative md:top-[60px] md:mb-[120px] md:gap-[175px] md:max-w-[680px] medium5 xl:hidden'>

@@ -1,5 +1,6 @@
+import { Header } from "../../interface";
 
-const HeaderComponent = ({Logo,Services,Projects,About,MiddleImg,hiddenImg,Nav}:any) => {
+const HeaderComponent = ({Logo,Services,Projects,About,MiddleImg,hiddenImg,Nav}:Header) => {
   return (
     <>
      <section className='flex items-center justify-between'>
