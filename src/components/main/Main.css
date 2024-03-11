@@ -14,3 +14,11 @@
         grid-area: mesame;
     }
 }
+@media (width >= 1440px){
+
+    .spacing{
+        word-spacing: 6.8px;
+    }
+
+}
+

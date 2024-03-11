@@ -1,3 +1,15 @@
+export const data5 = [
+    {
+        Logo:"/assets/MobileHeader1Webdoors.svg",
+        Services:'Services',
+        Projects:'Projects',
+        About:'About',
+        MiddleImg:"/assets/MobileHeader2Webdoors.svg",
+        hiddenImg:"/assets/DesktopHeader.svg",
+        Nav:"/assets/MobileHeader3Webdoors.svg"
+    }
+]
+
 export const data6 = [
     {
         Pirveli:"/assets/PirveliSponsoriWebdoors.svg",

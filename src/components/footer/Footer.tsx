@@ -8,7 +8,7 @@ import Border from '../LittleComponents/Border'
 import DmcaEba from '../LittleComponents/DmcaEba'
 const Footer = () => {
   return (
-    <footer className='w-[95%] m-[auto] max-w-[1200px] xl:w-[80%] xl:max-w-[1920px]'>
+    <footer className='w-[95%] m-[auto] max-w-[1200px] mt-20 xl:w-[80%] xl:max-w-[1920px]'>
                 {data6.map(el6 => (
                     <Sponsor
                     Pirveli={el6.Pirveli}
@@ -24,7 +24,7 @@ const Footer = () => {
                     Supta={el6.Supta}
                     />
                 ))}
-        <section className='flex flex-col justify-center items-center pt-[100px] xl:flex-row xl:justify-between'>
+        <section className='flex w-[90%] max-w-[1440px] m-auto flex-col justify-center items-center  xl:flex-row xl:justify-between'>
                 {data7.map(el7 => (
                     <LeftFooter 
                     MainImg={el7.MainImg}
